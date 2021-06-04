@@ -4,11 +4,11 @@
 %ADOLFO FLORES HERNANDEZ 3202 ah7042469@gmail.com 
 pkg load symbolic
 clear 
-clc 
+clc
 syms t;
 f=input("funcion que desea integrar: ");
 
-disp("integral de: ");
+disp("integral es : ");
 disp (f);
 F= inline(char(f));
 a=input("desde punto a : ");
